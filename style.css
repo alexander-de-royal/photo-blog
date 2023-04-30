@@ -1,14 +1,99 @@
-body{
-    font-family: Damascus, sans-serif;
+*{
+    font-family: "American Typewriter", sans-serif;
+    color: black;
 }
-img{
+#top-container{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#top-container h1{
+    font-size: 2rem;
+}
+#top-container nav{
+    display: flex;
+    flex-direction: row;
+}
+#top-container ul, li{
+    display: inline;
+    padding-left: 40px;
+    font-size: 1.5rem;
+}
+#top-container .left-navbar-heading{
+    text-decoration: none;
+}
+#top-container .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+#top-container .navbar .right-navbar {
     width: 400px;
-    height: 700px;
+    display: flex;
+    align-items: flex-end;
 }
-#white{
+#top-container .right-navbar a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+#top-container .right-navbar a:hover {
+    color: dimgrey;
+}
+#container{
     background-color: black;
-    color: white;
+    width: 99%;
+    height: 100%;
+    margin: 0 auto;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
+.image-1{
+    width: 500px;
+    height: 700px;
+    padding: 20px;
+}
+@media (min-width: 0px) and (max-width: 400px){
+    #white{
+        background-color: black;
+        color: white;
+    }
+}
+@media (min-width: 400px) and (max-width: 800px){
+    #black{
+        background-color: black;
+        color: white;
+    }
+}
+@media (min-width: 800px) and (max-width: 1200px){
+    #white{
+        background-color: black;
+        color: white;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1600px){
+    #black{
+        background-color: black;
+        color: white;
+    }
+}
+@media (min-width: 1600px) and (max-width: 2200px){
+    #white{
+        background-color: black;
+        color: white;
+    }
+}
+@media (min-width: 2200px) and (max-width: 2600px){
+    #black{
+        background-color: black;
+        color: white;
+    }
+}
+@media (min-width: 2600px) and (max-width: 4000px){
+    #white{
+        background-color: black;
+        color: white;
+    }
+}
 
 
